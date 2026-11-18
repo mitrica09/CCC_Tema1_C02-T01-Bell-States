@@ -1,0 +1,89 @@
+C02-T01 - GENERAREA SI TESTAREA STARILOR BELL
+
+Numar de shots: 4096
+
+REZULTATELE MASURATORILOR
+
+Starea Phi+:
+{'00': 2077, '11': 2019}
+
+Starea Phi-:
+{'00': 2043, '11': 2053}
+
+Starea Psi+:
+{'10': 2015, '01': 2081}
+
+Starea Psi-:
+{'10': 2050, '01': 2046}
+
+MATRICELE EXPERIMENTALE
+
+Starea Phi+:
+[[ 1.000e+00 -2.490e-02 -4.390e-03]
+ [ 2.881e-02 -1.000e+00 -7.320e-03]
+ [ 9.800e-04  2.197e-02  1.000e+00]]
+
+Starea Phi-:
+[[-1.000e+00 -2.051e-02  8.790e-03]
+ [ 1.025e-02  1.000e+00 -2.051e-02]
+ [ 3.420e-03  9.800e-04  1.000e+00]]
+
+Starea Psi+:
+[[ 1.000e+00  1.904e-02 -9.770e-03]
+ [ 8.300e-03  1.000e+00  9.800e-04]
+ [-1.416e-02 -4.297e-02 -1.000e+00]]
+
+Starea Psi-:
+[[-1.       0.02637  0.01465]
+ [-0.01514 -1.       0.01611]
+ [-0.01758 -0.01514 -1.     ]]
+
+COMPARAREA REZULTATELOR EXPERIMENTALE CU CELE TEORETICE
+
+Starea Bell: Phi+
+Matrice teoretica:
+[[ 1  0  0]
+ [ 0 -1  0]
+ [ 0  0  1]]
+Matrice experimentala:
+[[ 1.     -0.0249 -0.0044]
+ [ 0.0288 -1.     -0.0073]
+ [ 0.001   0.022   1.    ]]
+Eroare maxima: 0.02881
+Eroare medie: 0.00982
+
+Starea Bell: Phi-
+Matrice teoretica:
+[[-1  0  0]
+ [ 0  1  0]
+ [ 0  0  1]]
+Matrice experimentala:
+[[-1.     -0.0205  0.0088]
+ [ 0.0103  1.     -0.0205]
+ [ 0.0034  0.001   1.    ]]
+Eroare maxima: 0.02051
+Eroare medie: 0.00716
+
+Starea Bell: Psi+
+Matrice teoretica:
+[[ 1  0  0]
+ [ 0  1  0]
+ [ 0  0 -1]]
+Matrice experimentala:
+[[ 1.      0.019  -0.0098]
+ [ 0.0083  1.      0.001 ]
+ [-0.0142 -0.043  -1.    ]]
+Eroare maxima: 0.04297
+Eroare medie: 0.01058
+
+Starea Bell: Psi-
+Matrice teoretica:
+[[-1  0  0]
+ [ 0 -1  0]
+ [ 0  0 -1]]
+Matrice experimentala:
+[[-1.      0.0264  0.0146]
+ [-0.0151 -1.      0.0161]
+ [-0.0176 -0.0151 -1.    ]]
+Eroare maxima: 0.02637
+Eroare medie: 0.01166
